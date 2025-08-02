@@ -20,20 +20,6 @@ An AI-powered PM2.5 prediction engine using Random Forest Regression. This proje
 - **Root Mean Squared Error (RMSE)**: 27.55 µg/m³  
 - **R² Score**: 0.88  
 - ⚠️ Note: These metrics may vary depending on dataset version
-
----
-
-## 📁 Project Structure
-smart-air-quality/
-│
-├── cleaned_dataset.csv # Preprocessed dataset
-├── model.pkl # Trained Random Forest model (saved using joblib)
-├── train.py # Script to train and evaluate model
-├── predict.py # CLI prediction engine
-├── requirements.txt # Python dependencies
-└── README.md # You're reading it :)
-
-
 ---
 
 ## 🔧 Setup Instructions
